@@ -1,0 +1,17 @@
+# for intel compiler on Cori
+# copy to make.def
+
+FC          = ftn
+FLINKER     = $(FC)
+OPTFLAGS    = -qopenmp 
+LIBS        = -lm
+PRE         = ./
+
+FFLAGS	  = $(OPTFLAGS)
+
+CC          = cc
+CFLAGS	  = $(OPTFLAGS)
+
+OBJ=o
+EXE=
+RM=rm

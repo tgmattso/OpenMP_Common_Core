@@ -1,0 +1,16 @@
+# for Intel compiler on windows
+# copy to make.def
+FC          = ifort
+FLINKER     = $(FC)
+OPTFLAGS    = /Qopenmp  /Qstd=c99 
+LIBS        =
+PRE         =
+
+FFLAGS	  = $(OPTFLAGS) 
+
+CC          = icpc
+CFLAGS	  = $(OPTFLAGS) 
+
+OBJ=obj
+EXE=.exe
+RM=del

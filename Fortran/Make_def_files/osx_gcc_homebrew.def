@@ -1,0 +1,19 @@
+# for gcc compiler on Apple OS-X installed with homebrew
+# one needs to discover which name homebrew gave to gcc, in this case gcc-7
+# copy to make.def
+FC          = gfortran-7
+FLINKER     = $(FC)
+#OPTFLAGS    = -fopenmp -DAPPLE -O3
+#Not sure which optimization flag to turn on for gcc
+OPTFLAGS    = -fopenmp -DAPPLE
+LIBS        = -lm
+PRE         = ./
+
+FFLAGS	  = $(OPTFLAGS)
+
+CC          = gcc-7
+CFLAGS	  = $(OPTFLAGS)
+
+OBJ=o
+EXE=
+RM=rm

@@ -1,0 +1,13 @@
+FC          = pgf90
+FLINKER     = $(FC)
+OPTFLAGS    = -mp -fast 
+LIBS        =
+
+FFLAGS	  = $(OPTFLAGS) 
+
+CC          = pgcc
+CFLAGS	  = $(OPTFLAGS) 
+
+OBJ=o
+EXE=.exe
+RM=rm 

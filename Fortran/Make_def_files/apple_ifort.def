@@ -1,0 +1,16 @@
+# for g++ compiler on Apple OS-X
+# copy to make.def
+FC          = ifort
+FLINKER     = $(FC)
+OPTFLAGS    = -fopenmp -DAPPLE -O3
+LIBS        = -lm
+PRE         = ./
+
+FFLAGS	  = $(OPTFLAGS)
+
+CC          = icc
+CFLAGS	  = $(OPTFLAGS)
+
+OBJ=o
+EXE=
+RM=rm

@@ -1,0 +1,14 @@
+# for gnu compiler on Cori
+# copy to make.def
+CC         = cc
+CPP         = $(CC)
+OPTFLAGS   = -fopenmp
+
+CLINKER     = $(CC)
+LIBS        = -lm
+
+CFLAGS    = $(OPTFLAGS)
+PRE= ./
+OBJ=o
+EXE=
+RM=rm

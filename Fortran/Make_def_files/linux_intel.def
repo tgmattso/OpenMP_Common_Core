@@ -1,0 +1,19 @@
+# for intel compiler on linux 
+# copy to make.def
+FC         = ifort
+CPP         = $(FC)
+OPTFLAGS   = -fopenmp
+
+FLINKER     = $(FC)
+LIBS        = -lm
+
+FFLAGS    = $(OPTFLAGS)
+
+CC         = icpc
+CFLAGS    = $(OPTFLAGS)
+
+PRE= ./
+OBJ=o
+EXE=
+RM=rm
+
