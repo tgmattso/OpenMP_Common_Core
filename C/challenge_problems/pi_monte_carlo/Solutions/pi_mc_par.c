@@ -19,7 +19,7 @@ int main ()
       #pragma omp single
           printf(" %d threads ",omp_get_num_threads());
 
-      seed(-r, r);  
+      range(-r, r);  
       #pragma omp for reduction(+:Ncirc) private(x,y,test)
       for(i=0;i<num_trials; i++)
       {

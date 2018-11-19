@@ -6,7 +6,7 @@
 //
 //  The pseudo random sequence is seeded with a range
 //
-//            void seed(lower_limit, higher_limit)
+//            void range(lower_limit, higher_limit)
 //   
 //  and then subsequent calls to the random number generator 
 //  generates values in the sequence:
@@ -70,7 +70,7 @@ double drandom()
 //
 // set the seed, the multiplier and the range
 //
-void seed(double low_in, double hi_in)
+void range(double low_in, double hi_in)
 {
    int i, id, nthreads;
    unsigned long long iseed;

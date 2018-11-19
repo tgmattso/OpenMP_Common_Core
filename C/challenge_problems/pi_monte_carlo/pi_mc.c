@@ -97,7 +97,7 @@ int main ()
    double pi, x, y, test;
    double r = 1.0;   // radius of circle. Side of squrare is 2*r 
 
-   seed(-r, r);  // The circle and square are centered at the origin
+   range(-r, r);  // The circle and square are centered at the origin
    double time = omp_get_wtime();
    for(i=0;i<num_trials; i++)
    {
