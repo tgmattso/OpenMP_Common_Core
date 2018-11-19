@@ -40,6 +40,7 @@
 //      updated seed with call to timeofday added
 
 #include <sys/time.h>
+#include <stdio.h>
 
 static long MULTIPLIER  = 1366;
 static long ADDEND      = 150889;
