@@ -11,7 +11,5 @@ core of OpenMP
           OMP_commonCoreRefguide.pdf
 
 Finally, we provide two directories with code for the exercises: 
-one using C and the other Fortan.  
-
-
+one using C and the other Fortan.  We hope to add C++ soon.  
 
