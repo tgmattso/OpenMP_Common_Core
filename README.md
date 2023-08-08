@@ -1,5 +1,5 @@
 This repository holds the materials for our OpenMP Common Core
-tutorial.  
+tutorial.   
 
 The slides used for the tutorial are in the following pdf file.
 
